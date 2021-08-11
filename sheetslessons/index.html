@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Sheets</title>
+	<link rel='icon' href='/assets/favicon.ico' type='image/ico'>
+
+	<meta name='viewport' content='width=device-width, initial-scale=0.9, shrink-to-fit=no'>
+	<link rel='stylesheet' type='text/css' href='/assets/header.css'>
+	<link rel='stylesheet' type='text/css' href='/assets/site.css'>
+	<script src='/assets/lazysizes.min.js' async=''></script>
+	<script src='/assets/fade.js'></script>
+
+	<style>
+		.icon:hover img {
+			opacity: 0.4;
+		}
+		.container {
+		  display: flex;
+		  flex-wrap: wrap;	  
+		  justify-content: center;
+		  max-width:1200px;
+		  margin: 0 auto;
+		  /*border: 1px solid #000;*/
+		}
+		figure {
+		  margin: 7px;
+		  width:23%;
+		  min-width:300px;
+		  /*background-color:#CDCECA;*/
+		  flex: 1 0 auto;
+		}
+		figcaption{
+			font-size:15px;
+			padding: 3px;
+    		text-align: center;
+		}
+		img {
+		  max-width: 100%;
+		  max-height: 100%;
+		}
+		.bontainer {
+		  position: relative;
+		}
+		.overlay {
+			position: absolute;
+			top: 0;
+			bottom: 4px;
+			left: 0;
+			right: 0;
+			opacity: 0;
+			transition: .2s ease;
+			background-color: #ffffff;
+			display: flex;
+			justify-content: center;
+			align-items: center;	  
+		}
+
+		@media screen and (min-width: 600px) {
+			.bontainer:hover .overlay {
+				opacity: 0.8;
+			}
+		}
+		@media screen and (max-width: 600px) {
+			.overlay{
+				display: none;
+				opacity: 0.8;
+			}
+		}
+	</style>
+
+	<script>
+		function toggleOverlay(x) {
+			if(window.innerWidth>600){
+				return;
+			}
+			var div = document.getElementById('overlay'+x);
+			if (div.style.display == 'none' || div.style.display == '') {
+				div.style.display = 'flex';
+			}
+			else {
+				div.style.display = 'none';
+   			}
+		}
+	</script>
+</head>
+
+<body>
+	<svg id='fader'></svg>
+	<script>fadeInPage();</script>
+
+	<div id='header' active='sheetslessons'></div>
+	
+	<h1>Here you can find all of my videos and sheet music</h1>
+	<p>There's a mix of covers and lessons of varying depth, as well as tabs, lead sheets, and sheet music</p>
+	<p>I hope you enjoy, get inspired, and/or learn something!</p>
+
+	<div class='container'>	</div>
+
+	<script src='/assets/header.js'></script>
+	<script src='loadsheetslessons.js'></script>
+</body>
+
+</html>

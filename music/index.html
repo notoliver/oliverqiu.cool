@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Music</title>
+	<link rel='icon' href='/assets/favicon.ico' type='image/ico'>	
+
+	<meta name='viewport' content='width=device-width, initial-scale=0.9, shrink-to-fit=no'>
+	<link rel='stylesheet' type='text/css' href='/assets/header.css'>
+	<link rel='stylesheet' type='text/css' href='/assets/site.css'>
+	<script src='/assets/fade.js'></script>
+
+	<style>
+		.container {
+			display: flex;
+			flex-wrap: wrap;	  
+			justify-content: center;
+			max-width:1200px;
+			margin: 0 auto;
+		}
+		figure {
+			margin: 15px;
+			width:30%;
+			min-width:300px;
+			flex-grow:1;
+			/*background-color:#CDCECA;*/
+		}
+		.caption{
+			font-size:17px;
+			padding: 3px;
+			text-align: center;
+		}
+		.date{
+			font-size:15px;
+		}
+		img {
+			max-width: 100%;
+			max-height: 100%;
+		}
+		figure:hover{
+			opacity:0.9;
+		}
+	</style>
+</head>
+
+<body>
+	<svg id='fader'></svg>
+	<script>fadeInPage();</script>
+
+	<div id='header' active='music'></div>
+	
+	<div class='container' id='releases'></div>
+
+	<div class='icons'></div>
+
+	<script src='/assets/header.js'></script>
+	<script src='loadmusic.js'></script>
+	<script src='/assets/footer.js'></script>
+</body>
+
+</html>
