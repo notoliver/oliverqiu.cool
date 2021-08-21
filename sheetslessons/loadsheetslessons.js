@@ -1,6 +1,24 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'feellikemakinglove',
+        title: 'Feel Like Making Love (Masayoshi Takanaka & Takao Naoi) Cover + Tabs',
+        links: [
+            {
+                url: 'https://youtu.be/kIAap7MXzPc',
+                type: 'cover'
+            },
+            {
+                url: 'https://youtu.be/He_5YOoIkBo',
+                type: 'original'
+            },
+            {
+                url: 'feellikemakinglove.pdf',
+                type: 'gtab'
+            }
+        ]
+    },
+	{
         id: 'inthemorning',
         title: 'In The Morning (Toshifumi Hinata) Cover (live from tent)',
         links: [
