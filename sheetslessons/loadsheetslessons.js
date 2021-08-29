@@ -1,6 +1,24 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'beluga',
+        title: 'Beluga (Men I Trust) Cover + Chords Tutorial',
+        links: [
+            {
+                url: 'https://youtu.be/NLPVgjEM5r4',
+                type: 'learn'
+            },
+            {
+                url: 'https://youtu.be/fTYCfhEuz5Y',
+                type: 'original'
+            },
+            {
+                url: 'beluga.pdf',
+                type: 'leadsheet'
+            }
+        ]
+    },
+	{
         id: 'feellikemakinglove',
         title: 'Feel Like Making Love (Masayoshi Takanaka & Takao Naoi) Cover + Tabs',
         links: [
