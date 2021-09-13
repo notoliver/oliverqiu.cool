@@ -1,6 +1,28 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'goodbyesummer',
+        title: 'Good Bye Summer Breeze (Mariya Takeuchi) Cover',
+        links: [
+            {
+                url: 'https://youtu.be/WmCEe-jMKR0',
+                type: 'cover'
+            },
+            {
+                url: 'https://youtu.be/0jGtvdsnQko',
+                type: 'original'
+            },
+            {
+                url: 'goodbyesummerbreeze.pdf',
+                type: 'leadsheet'
+            },
+            {
+                url: 'goodbyesummerbreezesolo.pdf',
+                type: 'gtab'
+            }
+        ]
+    },
+	{
         id: 'beluga',
         title: 'Beluga (Men I Trust) Cover + Chords Tutorial',
         links: [
