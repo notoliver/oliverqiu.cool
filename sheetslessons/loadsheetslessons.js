@@ -1,7 +1,7 @@
 /* data array and size map */
 var vids = [
 	{
-        id: 'Always Lone',
+        id: 'alwayslone',
         title: 'Always Lone (Men I Trust) Cover + Lead Sheet/Bass Tabs',
         links: [
             {
