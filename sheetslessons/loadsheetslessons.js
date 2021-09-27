@@ -1,6 +1,28 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'Always Lone',
+        title: 'Always Lone (Men I Trust) Cover + Lead Sheet/Bass Tabs',
+        links: [
+            {
+                url: 'https://youtu.be/f2lNB_eq-3o',
+                type: 'cover'
+            },
+            {
+                url: 'https://youtu.be/3CPKMLpRc9o',
+                type: 'original'
+            },
+            {
+                url: 'alwayslone.pdf',
+                type: 'leadsheet'
+            },
+            {
+                url: 'alwayslonebass.pdf',
+                type: 'btab'
+            }
+        ]
+    },
+	{
         id: 'goodbyesummer',
         title: 'Good Bye Summer Breeze (Mariya Takeuchi) Cover',
         links: [
