@@ -1,6 +1,24 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'breezeblowing',
+        title: 'Breeze Blowing on the Hilltop (Yuji Nomi) Cover',
+        links: [
+            {
+                url: 'https://youtu.be/UF-wtkm6M6w',
+                type: 'cover'
+            },
+            {
+                url: 'https://youtu.be/-H6ACCpXG0A',
+                type: 'original'
+            },
+            {
+                url: 'breezeblowing.pdf',
+                type: 'leadsheet'
+            }
+        ]
+    },
+	{
         id: 'alwayslone',
         title: 'Always Lone (Men I Trust) Cover + Lead Sheet/Bass Tabs',
         links: [
