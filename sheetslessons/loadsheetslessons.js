@@ -1,6 +1,24 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'ifyoureallyloveme',
+        title: 'If You Really Love Me (Stevie Wonder arr. Nick Perito) Cover',
+        links: [
+            {
+                url: 'https://youtu.be/A5KgC1rXbNA',
+                type: 'cover'
+            },
+            {
+                url: 'https://youtu.be/6QMgwjlYrns',
+                type: 'original'
+            },
+            {
+                url: 'ifyoureallyloveme.pdf',
+                type: 'leadsheet'
+            }
+        ]
+    },
+	{
         id: 'breezeblowing',
         title: 'Breeze Blowing on the Hilltop (Yuji Nomi) Cover',
         links: [
