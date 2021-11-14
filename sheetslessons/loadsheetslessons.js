@@ -1,6 +1,24 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'somebodynew',
+        title: 'Somebody New (Blossom Dearie) Cover',
+        links: [
+            {
+                url: 'https://youtu.be/vVPIVbM6lSM',
+                type: 'cover'
+            },
+            {
+                url: 'https://www.youtube.com/watch?v=mhvd4KPfJAY',
+                type: 'original'
+            },
+            {
+                url: 'somebodynew.pdf',
+                type: 'leadsheet'
+            }
+        ]
+    },
+	{
         id: 'ifyoureallyloveme',
         title: 'If You Really Love Me (Stevie Wonder arr. Nick Perito) Cover',
         links: [
