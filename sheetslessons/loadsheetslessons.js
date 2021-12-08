@@ -1,6 +1,24 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'sorbitol',
+        title: 'Sorbitol (Men I Trust) Cover + Chords Tutorial',
+        links: [
+            {
+                url: 'https://youtu.be/jWVj3Ha7KoA',
+                type: 'learn'
+            },
+            {
+                url: 'https://youtu.be/DDJ-SUZrtW0',
+                type: 'original'
+            },
+            {
+                url: 'sorbitol.pdf',
+                type: 'leadsheet'
+            }
+        ]
+    },
+	{
         id: 'somebodynew',
         title: 'Somebody New (Blossom Dearie) Cover',
         links: [
