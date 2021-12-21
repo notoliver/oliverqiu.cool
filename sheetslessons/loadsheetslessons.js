@@ -1,6 +1,24 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'rain',
+        title: 'Rain (Yuji Ohno & Koji Ishizaka) Cover',
+        links: [
+            {
+                url: 'https://youtu.be/jorBF2QC20s',
+                type: 'cover'
+            },
+            {
+                url: 'https://youtu.be/CMimzgdX2Aw',
+                type: 'original'
+            },
+            {
+                url: 'rain.pdf',
+                type: 'leadsheet'
+            }
+        ]
+    },
+	{
         id: 'sorbitol',
         title: 'Sorbitol (Men I Trust) Cover + Chords Tutorial',
         links: [
