@@ -1,6 +1,32 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'treeamongshrubs',
+        title: 'Tree Among Shrubs (Men I Trust) Cover + Chords Tutorial',
+        links: [
+            {
+                url: 'https://youtu.be/ze5l1jiX9MM',
+                type: 'learn'
+            },
+            {
+                url: 'https://youtu.be/0LMwgWFzDjU',
+                type: 'original'
+            },
+            {
+                url: 'treeamongshrubs.pdf',
+                type: 'leadsheet'
+            },
+            {
+                url: 'treeamongshrubsguitar.pdf',
+                type: 'gtab'
+            },
+            {
+                url: 'treeamongshrubsbass.pdf',
+                type: 'btab'
+            }
+        ]
+    },
+	{
         id: 'rain',
         title: 'Rain (Yuji Ohno & Koji Ishizaka) Cover',
         links: [
