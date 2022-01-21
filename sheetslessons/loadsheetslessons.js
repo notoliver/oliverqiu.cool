@@ -1,6 +1,24 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'mistyyuji',
+        title: 'Misty (Yuji Ohno Trio) Piano Solo Transcription',
+        links: [
+            {
+                url: 'https://youtu.be/MOqK-5d6HX0',
+                type: 'cover'
+            },
+            {
+                url: 'https://youtu.be/Mv5jALj4QBc?t=151',
+                type: 'original'
+            },
+            {
+                url: 'mistyyujisolo.pdf',
+                type: 'sheetmusic'
+            }
+        ]
+    },
+	{
         id: 'rain',
         title: 'Rain (Yuji Ohno & Koji Ishizaka) Cover',
         links: [
