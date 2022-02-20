@@ -1,6 +1,24 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'memorandum',
+        title: 'Memorandum (Hi-Fi Set) Cover',
+        links: [
+            {
+                url: 'https://youtu.be/pvqc3qqeUAk',
+                type: 'cover'
+            },
+            {
+                url: 'https://youtu.be/p1QTf0OHFXQ',
+                type: 'original'
+            },
+            {
+                url: 'memorandum.pdf',
+                type: 'leadsheet'
+            }
+        ]
+    },
+	{
         id: 'mistyyuji',
         title: 'Misty (Yuji Ohno Trio) Piano Solo Transcription',
         links: [
