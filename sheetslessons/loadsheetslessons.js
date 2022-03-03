@@ -1,6 +1,24 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'amanalone',
+        title: 'A Man Alone (Alan Hawkshaw) Cover',
+        links: [
+            {
+                url: 'https://youtu.be/QgXKAUkvCU4',
+                type: 'cover'
+            },
+            {
+                url: 'https://youtu.be/4IlxCSGuXcA',
+                type: 'original'
+            },
+            {
+                url: 'amanalone.pdf',
+                type: 'sheetmusic'
+            }
+        ]
+    },
+	{
         id: 'memorandum',
         title: 'Memorandum (Hi-Fi Set) Cover',
         links: [
