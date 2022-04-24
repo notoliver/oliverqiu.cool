@@ -1,6 +1,24 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'drivemycarmisaki',
+        title: 'Drive My Car (Misaki) (Eiko Ishibashi) Cover',
+        links: [
+            {
+                url: 'https://youtu.be/T988xMMbgpo',
+                type: 'cover'
+            },
+            {
+                url: 'https://www.youtube.com/watch?v=CJbEZo2RD_w',
+                type: 'original'
+            },
+            {
+                url: 'drivemycarmisaki.pdf',
+                type: 'sheetmusic'
+            }
+        ]
+    },
+	{
         id: 'amanalone',
         title: 'A Man Alone (Alan Hawkshaw) Cover',
         links: [
