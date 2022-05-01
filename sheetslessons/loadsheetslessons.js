@@ -1,6 +1,24 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'kisforklassical',
+        title: 'K is for Klassical (Connan Mockasin) Cover + Tabs',
+        links: [
+            {
+                url: 'https://youtu.be/06QuxDjKctU',
+                type: 'cover'
+            },
+            {
+                url: 'https://youtu.be/8OLMIsPUygY',
+                type: 'original'
+            },
+            {
+                url: 'kisforklassical.pdf',
+                type: 'gtab'
+            }
+        ]
+    },
+	{
         id: 'drivemycarmisaki',
         title: 'Drive My Car (Misaki) (Eiko Ishibashi) Cover',
         links: [
