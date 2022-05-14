@@ -1,6 +1,24 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'itsudemosobani',
+        title: '\u3044\u3064\u3067\u3082 \u305D\u3070\u306B Always By Your Side (Taeko Ohnuki) Cover + Chords Tutorial',
+        links: [
+            {
+                url: 'https://youtu.be/Ke-oqe8SIew',
+                type: 'learn'
+            },
+            {
+                url: 'https://youtu.be/p23ykWwAbt4',
+                type: 'original'
+            },
+            {
+                url: 'itsudemosobani.pdf',
+                type: 'leadsheet'
+            }
+        ]
+    },
+	{
         id: 'kisforklassical',
         title: 'K is for Klassical (Connan Mockasin) Cover + Tabs',
         links: [
