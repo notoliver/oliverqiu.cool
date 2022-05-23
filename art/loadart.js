@@ -1,4 +1,9 @@
 var works = [
+	{
+        url: 'refacedx.jpg',
+        maxWidth: '700',
+        caption: 'Yamaha Reface DX'
+    },
     {
         url: 'cutlass.gif',
         maxWidth: '500',
