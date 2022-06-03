@@ -1,6 +1,24 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'saekostheme',
+        title: 'Saeko\'s Theme (Yuji Ohno) Cover',
+        links: [
+            {
+                url: 'https://youtu.be/oPs2M57szPY',
+                type: 'cover'
+            },
+            {
+                url: 'https://youtu.be/L98uLGSbSrM',
+                type: 'original'
+            },
+            {
+                url: 'saekostheme.pdf',
+                type: 'leadsheet'
+            }
+        ]
+    },
+	{
         id: 'itsudemosobani',
         title: '\u3044\u3064\u3067\u3082 \u305D\u3070\u306B Always By Your Side (Taeko Ohnuki) Cover + Chords Tutorial',
         links: [
