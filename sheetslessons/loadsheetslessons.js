@@ -1,6 +1,32 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'alltogetheralone',
+        title: 'Altogether Alone (Hirth Martinez) Cover',
+        links: [
+            {
+                url: 'https://youtu.be/iCvyYkwBcM4',
+                type: 'cover'
+            },
+            {
+                url: 'https://www.youtube.com/watch?v=npawMCVSFwI',
+                type: 'original'
+            },
+            {
+                url: 'altogetheralone.pdf',
+                type: 'leadsheet'
+            },
+            {
+                url: 'altogetheraloneguitar.pdf',
+                type: 'gtab'
+            },
+            {
+                url: 'altogetheralonebass.pdf',
+                type: 'btab'
+            }
+        ]
+    },
+	{
         id: 'saekostheme',
         title: 'Saeko\'s Theme (Yuji Ohno) Cover',
         links: [
