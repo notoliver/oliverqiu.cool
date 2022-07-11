@@ -1,6 +1,24 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'justthewayyouare',
+        title: 'Just the Way You Are (Masayoshi Takanaka) Cover + Transcription',
+        links: [
+            {
+                url: 'https://youtu.be/21N8nGgYqTs',
+                type: 'cover'
+            },
+            {
+                url: 'https://youtu.be/J04eMWURV1w',
+                type: 'original'
+            },
+            {
+                url: 'justthewayyouare.pdf',
+                type: 'gtab'
+            },
+        ]
+    },
+	{
         id: 'alltogetheralone',
         title: 'Altogether Alone (Hirth Martinez) Cover',
         links: [
