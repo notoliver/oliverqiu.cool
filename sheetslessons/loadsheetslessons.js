@@ -1,5 +1,23 @@
 /* data array and size map */
 var vids = [
+    {
+        id: 'ethertune',
+        title: 'Ether tune (All About Lily Chou-Chou OST) (Takeshi Kobayashi)',
+        links: [
+            {
+                url: 'https://youtu.be/bP4hrXGMhjw',
+                type: 'cover'
+            },
+            {
+                url: 'https://youtu.be/1Lap5BjkP5Q',
+                type: 'original'
+            },
+            {
+                url: 'ethertune.pdf',
+                type: 'sheetmusic'
+            },
+        ]
+    },
 	{
         id: 'justthewayyouare',
         title: 'Just the Way You Are (Masayoshi Takanaka) Cover + Transcription',
