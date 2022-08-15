@@ -2,7 +2,7 @@
 var vids = [
     {
         id: 'gingerbread',
-        title: 'Gingerbread (Alan Hawkshaw)',
+        title: 'Gingerbread (Alan Hawkshaw) Cover',
         links: [
             {
                 url: 'https://youtu.be/2OexV5It5ZQ',
@@ -20,7 +20,7 @@ var vids = [
     },
     {
         id: 'ethertune',
-        title: 'Ether tune (All About Lily Chou-Chou OST) (Takeshi Kobayashi)',
+        title: 'Ether tune (All About Lily Chou-Chou OST) (Takeshi Kobayashi) Cover',
         links: [
             {
                 url: 'https://youtu.be/bP4hrXGMhjw',
