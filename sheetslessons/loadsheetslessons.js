@@ -1,6 +1,24 @@
 /* data array and size map */
 var vids = [
     {
+        id: 'gingerbread',
+        title: 'Gingerbread (Alan Hawkshaw)',
+        links: [
+            {
+                url: 'https://youtu.be/2OexV5It5ZQ',
+                type: 'cover'
+            },
+            {
+                url: 'https://youtu.be/xn_dISTQXTA',
+                type: 'original'
+            },
+            {
+                url: 'gingerbread.pdf',
+                type: 'leadsheet'
+            },
+        ]
+    },
+    {
         id: 'ethertune',
         title: 'Ether tune (All About Lily Chou-Chou OST) (Takeshi Kobayashi)',
         links: [
