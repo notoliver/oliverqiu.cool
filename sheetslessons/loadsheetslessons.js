@@ -1,5 +1,19 @@
 /* data array and size map */
 var vids = [
+	{
+        id: 'thethingswedidlastsummer',
+        title: 'The Things We Did Last Summer (Jule Styne) Cover',
+        links: [
+            {
+                url: 'https://youtu.be/Lskp5myzfzs',
+                type: 'cover'
+            },
+            {
+                url: 'https://youtu.be/R7fdFYG1wuc',
+                type: 'original'
+            }
+        ]
+    },
     {
         id: 'gingerbread',
         title: 'Gingerbread (Alan Hawkshaw) Cover',
