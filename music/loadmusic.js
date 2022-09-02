@@ -1,5 +1,11 @@
 var releases = [
 	{
+        url: 'https://veryezvery.fun/boystew/',
+        img: 'boystew',
+        title: 'Boy Stew (All of Hers)',
+        date: 'September 2, 2022'
+    },
+	{
         url: 'ep5',
         img: 'ep5',
         title: 'More Things',
