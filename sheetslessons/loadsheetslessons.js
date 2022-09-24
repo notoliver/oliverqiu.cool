@@ -1,5 +1,23 @@
 /* data array and size map */
 var vids = [
+    {
+        id: 'bosimnova',
+        title: 'BoSIM Nova / Neighborhood 5 (Marc Russo) Cover',
+        links: [
+            {
+                url: 'https://youtu.be/OEx5bKPn4GA',
+                type: 'cover'
+            },
+            {
+                url: 'https://youtu.be/8PIWcE-knU4',
+                type: 'original'
+            },
+            {
+                url: 'bosimnova.pdf',
+                type: 'leadsheet'
+            }
+        ]
+    },
 	{
         id: 'thethingswedidlastsummer',
         title: 'The Things We Did Last Summer (Jule Styne) Cover',
