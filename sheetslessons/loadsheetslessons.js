@@ -1,5 +1,31 @@
 /* data array and size map */
 var vids = [
+	{
+        id: 'bumpyslament',
+        title: 'Bumpy\'s Lament (Mack Browne & The Brothers) Cover',
+        links: [
+            {
+                url: 'https://youtu.be/_cRgencRlQc',
+                type: 'cover'
+            },
+            {
+                url: 'https://youtu.be/FBv9hQwoB-s',
+                type: 'original'
+            },
+            {
+                url: 'bumpyslament.pdf',
+                type: 'leadsheet'
+            },
+            {
+                url: 'bumpyslamentguitar.pdf',
+                type: 'gtab'
+            },
+            {
+                url: 'bumpyslamentbass.pdf',
+                type: 'btab'
+            }
+        ]
+    },
     {
         id: 'bosimnova',
         title: 'BoSIM Nova / Neighborhood 5 (Marc Russo) Cover',
