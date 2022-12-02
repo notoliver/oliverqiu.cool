@@ -1,6 +1,36 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'hardtoletgo',
+        title: 'Hard To Let Go (Men I Trust) Live Looping Cover + Chord Tutorial',
+        links: [
+            {
+                url: 'https://youtu.be/Dd-wRd4QGsw',
+                type: 'learn'
+            },
+			{
+                url: 'https://www.youtube.com/watch?v=N5kd-JIVCgg',
+                type: 'original'
+            },
+            {
+                url: 'hardtoletgo.pdf',
+                type: 'leadsheet'
+            },
+            {
+                url: 'hardtoletgoguitar.pdf',
+                type: 'gtab'
+            },
+            {
+                url: 'hardtoletgobass.pdf',
+                type: 'btab'
+            },
+            {
+                url: 'hardtoletgpiano.pdf',
+                type: 'sheetmusic'
+            }
+        ]
+    },
+	{
         id: 'bumpyslament',
         title: 'Bumpy\'s Lament (Mack Browne & The Brothers) Cover',
         links: [
@@ -1732,6 +1762,7 @@ var vids = [
 var threelinks = ['55','55','55']
 var fourlinks = ['55','55','45','45']
 var fivelinks = ['50','45','45','45','45']
+var sixlinks = ['35','35','35','35','35','35']
 
 var sizemap = new Map();
 sizemap.set(1,threelinks);
@@ -1739,6 +1770,7 @@ sizemap.set(2,threelinks);
 sizemap.set(3,threelinks);
 sizemap.set(4,fourlinks);
 sizemap.set(5,fivelinks);
+sizemap.set(6,sixlinks);
 
 var innertext = '';
 var temptext=''
