@@ -25,7 +25,7 @@ var vids = [
                 type: 'btab'
             },
             {
-                url: 'hardtoletgpiano.pdf',
+                url: 'hardtoletgopiano.pdf',
                 type: 'sheetmusic'
             }
         ]
