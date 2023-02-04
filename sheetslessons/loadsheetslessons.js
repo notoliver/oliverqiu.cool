@@ -1,5 +1,23 @@
 /* data array and size map */
 var vids = [
+    {
+        id: 'bobbyandme',
+        title: 'Bobby and Me ',
+        links: [
+            {
+                url: 'https://youtu.be/bThIzacM5eU',
+                type: 'cover'
+            },
+			{
+                url: 'bobbyandme.mp3',
+                type: 'original'
+            },
+            {
+                url: 'bobbyandme.pdf',
+                type: 'leadsheet'
+            }
+        ]
+    },
 	{
         id: 'hardtoletgo',
         title: 'Hard To Let Go (Men I Trust) Live Looping Cover + Chord Tutorial',
