@@ -2,7 +2,7 @@
 var vids = [
     {
         id: 'bobbyandme',
-        title: 'Bobby and Me ',
+        title: 'Bobby and Me (Blossom Dearie) Cover',
         links: [
             {
                 url: 'https://youtu.be/bThIzacM5eU',
