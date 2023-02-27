@@ -1,5 +1,27 @@
 /* data array and size map */
 var vids = [
+	{
+        id: 'ringofpast',
+        title: 'Ring of Past (Men I Trust) Cover + Rhythm Tutorial(?)',
+        links: [
+            {
+                url: 'https://youtu.be/JroJAf9YS94',
+                type: 'lesson'
+            },
+			{
+                url: 'https://youtu.be/HSGwL5wORJY',
+                type: 'original'
+            },
+            {
+                url: 'ringofpast.pdf',
+                type: 'leadsheet'
+            },
+            {
+                url: 'ringofpastbass.pdf',
+                type: 'btab'
+            }
+        ]
+    },
     {
         id: 'bobbyandme',
         title: 'Bobby and Me (Blossom Dearie) Cover',
