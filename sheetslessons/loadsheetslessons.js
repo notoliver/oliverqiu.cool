@@ -6,7 +6,7 @@ var vids = [
         links: [
             {
                 url: 'https://youtu.be/JroJAf9YS94',
-                type: 'lesson'
+                type: 'learn'
             },
 			{
                 url: 'https://youtu.be/HSGwL5wORJY',
