@@ -1,6 +1,24 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'gluesong',
+        title: 'Glue Song (Beabadoobee) Acoustic/Flatpicking Cover',
+        links: [
+            {
+                url: 'https://youtu.be/lr0xHu86pvM',
+                type: 'cover'
+            },
+			{
+                url: 'https://youtu.be/y1cBhJLNNXU',
+                type: 'original'
+            },
+            {
+                url: 'gluesongguitar.pdf',
+                type: 'gtab'
+            }
+        ]
+    },
+	{
         id: 'ringofpast',
         title: 'Ring of Past (Men I Trust) Cover + Rhythm Tutorial(?)',
         links: [
