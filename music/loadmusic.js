@@ -1,4 +1,10 @@
 var releases = [
+    {
+        url: 'totalkwith',
+        img: 'totalkwith',
+        title: 'To Talk With (feat. Minsuh Chung)',
+        date: 'March 26, 2023'
+    },
 	{
         url: 'https://veryezvery.fun/boystew/',
         img: 'boystew',
@@ -52,6 +58,11 @@ var releases = [
         img: 'ep1',
         title: 'Some Things',
         date: 'February 21, 2020'
+    },
+    {
+        url: 'empty',
+        title: 'empty',
+        date: 'empty'
     },
     {
         url: 'empty',
