@@ -9,8 +9,39 @@
 	<script src='/assets/fade.js'></script>
 	<link rel="stylesheet" type="text/css" href="../music.css">
 	<style>
+		@font-face { font-family: font; src: url('font.ttf'); }
 		body{
 			background-image: url('totalkwithblur.png');
+			font-family:font;
+		}
+		.platform{
+			margin-top: 3px;
+			margin-left:auto;
+			margin-right:auto;
+			background-color:#E8E6DA;
+			padding-top:5px;
+			padding-bottom:5px;
+			display: flex;
+			align-items: center;
+			flex-direction: row;
+			max-width: 500px;
+			width:95%;
+			flex-wrap: wrap;
+			justify-content: center;			
+		}
+		.platform img{
+			margin:0px;
+			padding-right:10px;
+		}
+		.platform text{
+			margin:0px;
+			
+		}
+		a{
+			text-decoration: none;
+			color:black;
+			font-size:17px;
+			
 		}
 	</style>
 </head>
@@ -18,22 +49,40 @@
 <body>
 	<svg id='fader'></svg>
 	<script>fadeInPage();</script>
-
 	<img src='totalkwith.png' alt='totalkwith' width='95%' max-width='500' style='display:block; margin:0 auto;'/>
 
 	<div class='platforms'>
+		<a href="https://open.spotify.com/album/0mrbo17ur05EjF4kQP20ls" target='_blank'>
+			<div class='platform'>
+				<img src='/assets/icons/icons8-spotify.svg' alt='home' width="50"/>
+				<div class='text'>Spotify</div>
+			</div>
+		</a>
+		<a href="https://youtu.be/mFtRq7lYJk0" target='_blank'>
+			<div class='platform'>
+				<img src='/assets/icons/icons8-youtube.svg' alt='home' width="50"/>
+				<div class='text'>Youtube</div>
+			</div>
+		</a>
 		<!--
-		<a href="https://open.spotify.com/album/2SMHCzbSPmjHVnXC5m4JDP" target='_blank'  class='icon'><img src='../spotifybanner.jpg' alt='spotify' width='95%' max-width='500' /></a>
-		<a href="https://music.apple.com/us/album/more-things-ep/1595921796" target='_blank' class='icon'><img src='../applemusicbanner.jpg' alt='apple' width='95%' max-width='500' /></a>
-		
-		<a href="https://youtu.be/mFtRq7lYJk0" target='_blank' class='icon'><img src='../youtubebanner.jpg' alt='yt' width='95%' max-width='500' /></a>
-		<a href="https://oliverqiu.bandcamp.com/track/to-talk-with-feat-minsuh-chung" target='_blank' class='icon'><img src='../bandcampbanner.jpg' alt='bandcamp' width='95%' max-width='500' /></a>
+		<a href="" target='_blank'>
+			<div class='platform'>
+				<img src='/assets/icons/icons8-apple-logo.svg' alt='home' width="50"/>
+				<div class='text'>Apple Music</div>
+			</div>
+		</a>
 		-->
+		<a href="https://oliverqiu.bandcamp.com/track/to-talk-with-feat-minsuh-chung" target='_blank'>
+			<div class='platform'>
+				<img src='/assets/icons/icons8-bandcamp.svg' alt='home' width="50"/>
+				<div class='text'>Bandcamp</div>
+			</div>
+		</a>
 	</div>
 	
 	<div style="position:fixed;left:0px;right:0px;bottom:10px;">
-		<a href="https://www.instagram.com/oliverqiu_/" target='_blank' class='icon' ><img src='/assets/instagram.png' alt='home' width="50"/></a>
-		<a href="/" target='_blank' class='icon redirect'><img src='/assets/web.png' alt='home' width="50" redirect/></a>
+		<a href="https://www.instagram.com/oliverqiu_/" target='_blank' class='icon' ><img src='/assets/icons/icons8-instagram.svg' alt='home' width="50"/></a>
+		<a href="https://oliverqiu.cool" target='_blank' class='icon' ><img src='/assets/icons/icons8-home-page-96.png' alt='home' width="50"/></a>
 	</div>
 </body>
 
