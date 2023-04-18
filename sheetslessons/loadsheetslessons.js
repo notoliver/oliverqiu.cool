@@ -2,7 +2,7 @@
 var vids = [
 	{
         id: 'scrabblecompleteleftturn',
-        title: 'Scrabble Complete Music Leftturn (Tony Trippi) Cover (live from Baldwin)',
+        title: 'Scrabble Complete Music Leftturn (Tony Trippi) Cover feat. Cole Anyway (live from Baldwin) ',
         links: [
             {
                 url: 'https://youtu.be/B8bawu_1jnE',
@@ -13,14 +13,14 @@ var vids = [
                 type: 'original'
             },
             {
-                url: 'scrabblecompleteleftturn.pdf',
+                url: 'scrabbleleftturn.pdf',
                 type: 'leadsheet'
             }
         ]
     },
 	{
         id: 'thinkaboutchu',
-        title: 'Scrabble Complete Music Leftturn (Tony Trippi) Cover (live from Baldwin)',
+        title: 'THINK ABOUT` CHU (Asoto Union) Cover',
         links: [
             {
                 url: 'https://youtu.be/eV5aoHL-mCE',
