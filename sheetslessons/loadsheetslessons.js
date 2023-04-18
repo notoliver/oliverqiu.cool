@@ -1,6 +1,38 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'scrabblecompleteleftturn',
+        title: 'Scrabble Complete Music Leftturn (Tony Trippi) Cover (live from Baldwin)',
+        links: [
+            {
+                url: 'https://youtu.be/B8bawu_1jnE',
+                type: 'cover'
+            },
+			{
+                url: 'https://www.youtube.com/watch?v=7UecQsz3SfA',
+                type: 'original'
+            },
+            {
+                url: 'scrabblecompleteleftturn.pdf',
+                type: 'leadsheet'
+            }
+        ]
+    },
+	{
+        id: 'thinkaboutchu',
+        title: 'Scrabble Complete Music Leftturn (Tony Trippi) Cover (live from Baldwin)',
+        links: [
+            {
+                url: 'https://youtu.be/eV5aoHL-mCE',
+                type: 'cover'
+            },
+			{
+                url: 'https://www.youtube.com/watch?v=oLYAfaSzLC8',
+                type: 'original'
+            }
+        ]
+    },
+	{
         id: 'gluesong',
         title: 'Glue Song (Beabadoobee) Acoustic/Flatpicking Cover',
         links: [
