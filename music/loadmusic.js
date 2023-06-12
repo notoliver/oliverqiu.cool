@@ -6,22 +6,10 @@ var releases = [
         date: 'March 26, 2023'
     },
 	{
-        url: 'https://veryezvery.fun/boystew/',
-        img: 'boystew',
-        title: 'Boy Stew (All of Hers)',
-        date: 'September 2, 2022'
-    },
-	{
         url: 'ep5',
         img: 'ep5',
         title: 'More Things',
         date: 'November 21, 2021'
-    },
-    {
-        url: 'https://veryezvery.fun/yetso/',
-        img: 'yetso',
-        title: 'Yet So (All of Hers)',
-        date: 'November 12, 2021'
     },
     {
         url: 'https://theopenness.com/turnaround/',
