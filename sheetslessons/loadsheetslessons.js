@@ -1,8 +1,26 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'summerthoughts',
+        title: 'Summer Thoughts (James Clarke) Cover feat. Ollie Chew',
+        links: [
+            {
+                url: 'https://youtu.be/aI1AsaowAhM',
+                type: 'cover'
+            },
+			{
+                url: 'https://www.youtube.com/watch?v=8Tg3bOi-fVc',
+                type: 'original'
+            },
+            {
+                url: 'summerthoughts.pdf',
+                type: 'sheetmusic'
+            }
+        ]
+    },
+	{
         id: 'scrabblecompleteleftturn',
-        title: 'Scrabble Complete Music Leftturn (Tony Trippi) Cover feat. Cole Anyway (live from Baldwin) ',
+        title: 'Scrabble Complete Music Leftturn (Tony Trippi) Cover feat. Cole Anyway (live from Baldwin)',
         links: [
             {
                 url: 'https://youtu.be/B8bawu_1jnE',
