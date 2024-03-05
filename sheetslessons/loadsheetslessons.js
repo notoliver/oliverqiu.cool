@@ -1,5 +1,19 @@
 /* data array and size map */
 var vids = [
+    {
+        id: 'summerisgone',
+        title: 'Summer Is Gone (Jimmy\'s Gone Home Again) (Blossom Dearie) Cover',
+        links: [
+            {
+                url: 'https://youtu.be/pGJaH-mYuR4?si=aRfilm98lVrzIDEN',
+                type: 'cover'
+            },
+			{
+                url: 'https://youtu.be/ZJgiD79eJlU?si=HfTK2rFJlcXkWTJz',
+                type: 'original'
+            }
+        ]
+    },
 	{
         id: 'summerthoughts',
         title: 'Summer Thoughts (James Clarke) Cover feat. Ollie Chew',

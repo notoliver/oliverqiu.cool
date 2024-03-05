@@ -1,5 +1,17 @@
 var releases = [
     {
+        url: 'https://open.spotify.com/album/6KipQuvKYneUl1D9fzadoU',
+        img: 'millionsofshapes',
+        title: 'Millions Of Shapes - John Voyage (Piano)',
+        date: 'August 18, 2023'
+    },
+    {
+        url: 'https://open.spotify.com/album/7GKffnlYKHpC2SvKX1RREy',
+        img: 'taipei',
+        title: 'Taipei - Layton Wu (Guitar, Keyboard)',
+        date: 'July 6, 2023'
+    },
+    {
         url: 'totalkwith',
         img: 'totalkwith',
         title: 'To Talk With (feat. Minsuh Chung)',
@@ -14,7 +26,7 @@ var releases = [
     {
         url: 'https://theopenness.com/turnaround/',
         img: 'turnaround',
-        title: 'Television Turnaround (Openness)',
+        title: 'Television Turnaround - Openness (Guitar)',
         date:'April 30, 2021'
     },
     {
@@ -26,7 +38,7 @@ var releases = [
 	{
         url: 'https://theopenness.com/journey/',
         img: 'adorethejourney',
-        title: 'Adore the Journey (Openness)',
+        title: 'Adore the Journey - Openness (Guitar, Bass)',
         date:'August 21, 2020'
     },
     {
