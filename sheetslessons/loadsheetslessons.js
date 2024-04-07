@@ -1,5 +1,19 @@
 /* data array and size map */
 var vids = [
+	{
+        id: 'ilovesyouporgychihiro',
+        title: 'I Loves You, Porgy (Chihiro Yamanaka) Cover + Transcription',
+        links: [
+            {
+                url: 'https://youtu.be/je2mKHDcJo0',
+                type: 'cover'
+            },
+			{
+                url: 'https://youtu.be/Vj_RR8jzgl0?si=WLpWvITEC3s9QCQR',
+                type: 'original'
+            }
+        ]
+    },
     {
         id: 'summerisgone',
         title: 'Summer Is Gone (Jimmy\'s Gone Home Again) (Blossom Dearie) Cover',
