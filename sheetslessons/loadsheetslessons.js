@@ -1,6 +1,20 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'evenwithoutmeasking',
+        title: '안부를 묻진 않아도 (이상순) Cover arranged for Hammond Organ',
+        links: [
+            {
+                url: 'https://youtu.be/o-rm0X-rnSA',
+                type: 'cover'
+            },
+			{
+                url: 'https://www.youtube.com/watch?v=nK6zoXnQWws',
+                type: 'original'
+            }
+        ]
+    },
+	{
         id: 'ilovesyouporgychihiro',
         title: 'I Loves You, Porgy (Chihiro Yamanaka) Cover + Transcription',
         links: [
