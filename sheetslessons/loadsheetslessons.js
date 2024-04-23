@@ -11,6 +11,10 @@ var vids = [
 			{
                 url: 'https://www.youtube.com/watch?v=nK6zoXnQWws',
                 type: 'original'
+            },
+            {
+                url: 'evenwithoutmeasking.pdf',
+                type: 'leadsheet'
             }
         ]
     },
