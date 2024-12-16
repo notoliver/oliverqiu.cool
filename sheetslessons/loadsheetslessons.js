@@ -1,5 +1,23 @@
 /* data array and size map */
 var vids = [
+{
+        id: 'youkeepsneakin',
+        title: 'You Keep Sneakin\' Up On My Mind (Anne Phillips) Cover',
+        links: [
+            {
+                url: 'https://youtu.be/PnzUXgBVzlQ?si=TByDdtiP0jnuxW_s',
+                type: 'cover'
+            },
+			{
+                url: 'https://www.youtube.com/watch?v=vI_jIrH3fUw',
+                type: 'original'
+            },
+            {
+                url: 'youkeepsneakin.pdf',
+                type: 'leadsheet'
+            }
+        ]
+    },
 	{
         id: 'evenwithoutmeasking',
         title: '안부를 묻진 않아도 (이상순) Cover arranged for Hammond Organ',
