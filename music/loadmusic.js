@@ -1,5 +1,23 @@
 var releases = [
     {
+        url: 'https://open.spotify.com/track/2t64j1Lscuw7ExV1NHT5Zv?si=11e064f3c0d64166',
+        img: 'whispertomyear',
+        title: 'Whisper to my ear (arranged by Layton Wu)<br>- 陳嫺靜 (Keyboard)',
+        date: 'March 7, 2025'
+    },
+    {
+        url: 'https://open.spotify.com/track/4x3kyg5Sz92GndMR10bZnA?si=e2c37afec3bc4fd9',
+        img: 'elevatorpitch',
+        title: 'Elevator Pitch - Cole Anyway (Composition)',
+        date: 'October 23, 2024'
+    },
+    {
+        url: 'https://open.spotify.com/track/7vgfpWpWc61Myfp0XqOgxD?si=331234bcf4144c55',
+        img: 'bluejeans',
+        title: 'Peace Of Mind - Layton Wu (Keyboard)',
+        date: 'June 20, 2024'
+    },
+    {
         url: 'https://open.spotify.com/album/6KipQuvKYneUl1D9fzadoU',
         img: 'millionsofshapes',
         title: 'Millions Of Shapes - John Voyage (Piano)',
