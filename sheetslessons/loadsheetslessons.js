@@ -1,6 +1,24 @@
 /* data array and size map */
 var vids = [
-{
+	{
+        id: 'lovers',
+        title: 'Lovers (Frank Ricotti) Cover',
+        links: [
+            {
+                url: 'https://youtu.be/yYBtbIcWwmM?si=2fZ-wwMhXMYvem7n',
+                type: 'cover'
+            },
+			{
+                url: 'https://youtu.be/aY8_UlolFCs?si=UtEjylBSvSCVxeVD',
+                type: 'original'
+            },
+            {
+                url: 'lovers.pdf',
+                type: 'leadsheet'
+            }
+        ]
+    },
+	{
         id: 'youkeepsneakin',
         title: 'You Keep Sneakin\' Up On My Mind (Anne Phillips) Cover',
         links: [
