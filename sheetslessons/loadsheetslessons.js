@@ -1,6 +1,24 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'dontletmebelonelytonight',
+        title: 'Don\'t Let Me Be Lonely Tonight (James Taylor arr. Yuji Ohno) Cover',
+        links: [
+            {
+                url: 'https://youtu.be/x8y3fHEO2k0?si=FpKr8_9XkUBCLr12',
+                type: 'cover'
+            },
+			{
+                url: 'https://youtu.be/HKvndpIJ1BA?si=MwyXA4AN9KUNhKYg',
+                type: 'original'
+            },
+            {
+                url: 'dontletmebelonelytonight.pdf',
+                type: 'leadsheet'
+            }
+        ]
+    },
+	{
         id: 'lovers',
         title: 'Lovers (Frank Ricotti) Cover',
         links: [
