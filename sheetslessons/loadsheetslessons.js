@@ -1,6 +1,24 @@
 /* data array and size map */
 var vids = [
 	{
+        id: 'leiastheme',
+        title: 'Princess Leia\'s Theme (John Williams) "Organ" Arrangement',
+        links: [
+            {
+                url: 'https://youtu.be/4gN4jLIsRRE',
+                type: 'cover'
+            },
+			{
+                url: 'https://youtu.be/2vqvLfgv1Ew?si=vOm_epZUtfYGNxpF',
+                type: 'original'
+            },
+            {
+                url: 'leiastheme.pdf',
+                type: 'leadsheet'
+            }
+        ]
+    },
+	{
         id: 'dontletmebelonelytonight',
         title: 'Don\'t Let Me Be Lonely Tonight (James Taylor arr. Yuji Ohno) Cover',
         links: [
